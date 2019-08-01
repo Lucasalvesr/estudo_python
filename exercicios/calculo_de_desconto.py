@@ -1,0 +1,5 @@
+print("Bem Vindo")
+a=input("Digite o custo do produto: ")
+b=input("Digite o valor do desconto em %: ")
+resultado=float(a)*(1-float(b)/100)
+print(resultado)
